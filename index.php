@@ -33,9 +33,9 @@ for($i = 0; $i< count($result); $i++){
     echo "<h2>Match n. </h2>" . $i ;
     var_dump($result[$i]);
     $keys = array_keys($result[$i]);
-    for($keyIndex = 0; $i< count($keys); $keyIndex++){
+    for($keyIndex = 0; $keyIndex< count($keys); $keyIndex++){
         echo $result[$i][$keys[$keyIndex]];
-    };
+    }
 };
 
 ?>
