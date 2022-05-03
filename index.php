@@ -25,9 +25,6 @@ $result = [
         "awayScore" => "77"
     ]
     ];
-echo "<pre>";
-var_dump($result);
-echo "</pre>";
 
 for($i = 0; $i< count($result); $i++){
     echo "<h2>Match n. </h2>" . $i ;
